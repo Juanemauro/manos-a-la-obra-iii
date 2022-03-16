@@ -1,0 +1,76 @@
+/* CONTAINER */
+
+/* header del container */
+
+.container{
+    padding: 2% 25% 10% 25%;
+    width: 50%;
+    height: 100%;
+}
+
+
+/* TASKS */
+
+ol, li{
+    list-style: none;
+}
+
+.task-lists{
+    /*background-color: pink;*/
+    width: 100%;
+    padding: 0;
+}
+
+.task{
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: space-between;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.task-start{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /*background-color: red;*/
+}
+
+.task-name{
+    margin-left: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    /*background-color: green;*/
+    word-wrap: break-word;
+}
+
+
+/* ACTIONS */
+
+.actions{    
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.btn-delete, .btn-edit{
+    background-color: #FF3131;  
+    margin-right: 15%; 
+    width: 100%;
+}
+
+.btn-img-delete, .btn-img-edit{
+    width: 100%;
+    background-color: #FF3131;
+}
+
+hr{
+    width: 524px;
+    margin: 8px;
+    border: 2px solid rgba(34,34,34,0.5);
+}
+/* SCSS */

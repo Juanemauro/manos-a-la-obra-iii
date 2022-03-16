@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+h1{
+    font-size: 36px;
+    font-family: Roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 328px 0px 328px;
+    height: 64px;
+    width: 497px;
+
+}

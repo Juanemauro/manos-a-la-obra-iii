@@ -1,0 +1,8 @@
+<!-- ADD TASK -->
+<div class="add-task-container">
+  <input type="text" class="search-bar" placeholder="Escriba la tarea" #newTask>
+  <button class="button-add" (click)="addTask(newTask.value); newTask.value=''"><svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.21 15.77L0 9.55998L2.83 6.72998L6.21 10.12L16.09 0.22998L18.92 3.05998L6.21 15.77Z" fill="#222222"/>
+    </svg>
+    </button>
+</div>

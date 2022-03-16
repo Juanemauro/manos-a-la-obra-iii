@@ -1,0 +1,13 @@
+<div class="container">
+    <add-task (newTask)="addTask($event)"></add-task>
+    <hr>
+    <!-- TASK LIST -->
+    <div class="task-lists">
+        <!--NG FOR PARA RECORRER ARREGLO DE TAREAS -->
+        <ol class="task-lists">
+            <task-item *ngFor="let t of tasks" [task]="t" (deletedTask)="deleteTask($event)"> </task-item>
+            <!--END NGFOR -->
+        </ol>
+    </div>
+</div>
+<!--END TASK LIST -->

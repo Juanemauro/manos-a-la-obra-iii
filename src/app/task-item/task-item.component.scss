@@ -1,0 +1,84 @@
+.task{
+    height: 60px;
+    width: 512px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: space-between;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    //margin-left: 8px;
+    padding: 8px;
+}
+
+.task-start, .checkbox{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /*background-color: red;*/
+}
+
+/****/
+
+// .checkbox > input {
+//     height: 25px;
+//     width: 25px;
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     -o-appearance: none;
+//     appearance: none;
+//     border: 1px solid grey;;
+//     border-radius: 4px;
+    
+//     transition-duration: 0.3s;
+//     background-color: white;
+//     cursor: pointer;
+//   }
+
+// .checkbox > input:checked {
+//     border: 1px solid grey;
+//     background-color: red;
+    
+// }
+
+
+
+
+
+
+/**/
+
+
+
+.task-name{
+    margin-left: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    /*background-color: green;*/
+    word-wrap: break-word;
+}
+
+
+/* ACTIONS */
+
+.actions{    
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-delete, .btn-edit{       
+    height: 48px;
+    width: 48px;
+    margin: 8px;
+}
+
+.btn-img-delete, .btn-img-edit{
+    height: 18px;
+    width: 20px;    
+}

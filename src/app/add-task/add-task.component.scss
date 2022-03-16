@@ -1,0 +1,52 @@
+
+.titulo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.profile-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+/* ADD TASK */
+
+.add-task-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 512px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.add-task-container > input {
+    height: 64px;
+    width: 497px;
+    padding: 8px;
+    border: none;
+}
+
+.search-bar{
+    height: 64px;
+    width: 497px;;
+    border-radius: 4px;
+    margin: 8px;    
+}
+
+.button-add{
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    width: 48px;
+    height: 48px;
+}
