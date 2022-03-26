@@ -3,11 +3,11 @@
 /* header del container */
 
 .container{
-    padding: 2% 25% 10% 25%;
+    padding: 2% 20% 10% 15%;
     width: 50%;
     height: 100%;
+    padding-right: 55%;
 }
-
 
 /* TASKS */
 
@@ -19,6 +19,7 @@ ol, li{
     /*background-color: pink;*/
     width: 100%;
     padding: 0;
+  
 }
 
 .task{
@@ -69,9 +70,12 @@ ol, li{
 }
 
 hr{
-    width: 524px;
+    width: 500px;
     margin: 8px;
+    height: 2px;
     border: 2px solid rgba(34,34,34,0.5);
+    box-sizing: border-box;
+    padding: 0% 20% 0% 15%;
 }
 /* SCSS */
 
