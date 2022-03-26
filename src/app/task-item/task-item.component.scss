@@ -23,35 +23,39 @@
     /*background-color: red;*/
 }
 
-/****/
+// /****/
 
-// .checkbox > input {
-//     height: 25px;
-//     width: 25px;
-//     -webkit-appearance: none;
-//     -moz-appearance: none;
-//     -o-appearance: none;
-//     appearance: none;
-//     border: 1px solid grey;;
-//     border-radius: 4px;
+//  .checkbox > input {
+//      height: 25px;
+//      width: 25px;
+//      -webkit-appearance: none;
+//      -moz-appearance: none;
+//      -o-appearance: none;
+//      appearance: none;
+//      border: 1px solid grey;;
+//           border-radius: 4px;
     
-//     transition-duration: 0.3s;
-//     background-color: white;
-//     cursor: pointer;
-//   }
+//      transition-duration: 0.3s;
+//      background-color: white;
+//      cursor: pointer;
+//    }
 
-// .checkbox > input:checked {
-//     border: 1px solid grey;
-//     background-color: red;
+//  .checkbox > input:checked {
+//      border: 1px solid grey;
+//      background-color: red;
     
-// }
+//  }
+
+
+.checkboxs:checked + .task-name{
+    text-decoration:line-through;
+}
 
 
 
 
 
-
-/**/
+// /**/
 
 
 
