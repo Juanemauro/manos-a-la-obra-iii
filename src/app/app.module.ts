@@ -7,6 +7,8 @@ import { AddTaskComponent } from './add-task/add-task.component';
 import { HeaderComponent } from './header/header.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { TaskItemComponent } from './task-item/task-item.component';
+import { TasklengthcheckerDirective } from './tasklengthchecker.directive';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { TaskItemComponent } from './task-item/task-item.component';
     AddTaskComponent,
     HeaderComponent,
     TaskListComponent,
-    TaskItemComponent
+    TaskItemComponent,
+    TasklengthcheckerDirective,
   ],
   imports: [
     BrowserModule,
